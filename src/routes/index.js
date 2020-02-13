@@ -12,5 +12,10 @@ module.exports = [
         method: 'GET',
         path: '/api/v1/products',
         handler: product.getAll
+    },
+    {
+        method: 'POST',
+        path: '/api/v1/products',
+        handler: product.save
     }
 ]
