@@ -1,5 +1,5 @@
 'use strict'
-
+require('./src/services/mongodb')
 const Hapi = require('@hapi/hapi')
 const Routes = require('./src/routes/index')
 

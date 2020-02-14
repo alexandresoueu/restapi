@@ -19,7 +19,8 @@
   },
   "homepage": "https://github.com/alexandresoueu/restapi#readme",
   "dependencies": {
-    "@hapi/hapi": "^19.1.0"
+    "@hapi/hapi": "^19.1.0",
+    "mongoose": "^5.9.0"
   },
   "devDependencies": {
     "nodemon": "^2.0.2"

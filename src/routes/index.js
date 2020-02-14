@@ -14,8 +14,18 @@ module.exports = [
         handler: product.getAll
     },
     {
+        method: 'GET',
+        path: '/api/v1/products/{id}',
+        handler: product.getProductById
+    },
+    {
         method: 'POST',
         path: '/api/v1/products',
         handler: product.save
+    },
+    {
+        method: 'DELETE',
+        path: '/api/v1/products/{id}',
+        handler: product.remove
     }
 ]
